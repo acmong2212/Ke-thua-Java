@@ -3,6 +3,7 @@ package point2d_point3d;
 public class Point2D {
     private float x = 0.0f;
     private float y = 0.0f;
+    float[] Array = {x , y};
 
     public Point2D() {}
 
@@ -27,8 +28,8 @@ public class Point2D {
         this.y = y;
     }
 
-    public float getXY() {
-        return
+    public float[] getXY() {
+        return Array;
     }
 
     public void setXY(float x, float y) {
